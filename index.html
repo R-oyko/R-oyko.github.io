@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portofolio - Persona 5 Style Interactive</title>
+  <title>Persona 5 Style Interactive</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -24,24 +24,24 @@
 
   <div class="side-menu" id="sideMenu">
     <button class="close-btn" id="closeMenu">X CLOSE</button>
-    <h2 class="menu-title">NAVIGATION</h2>
+    <h2 class="menu-title">NAVIGASI</h2>
     <ul class="menu-list">
       <li class="menu-item"><a href="#about">01. ABOUT ME</a></li>
-      <li class="menu-item"><a href="#skills">02. MY SKILLS</a></li>
-      <li class="menu-item"><a href="#projects">03. MY PROJECTS</a></li>
-      <li class="menu-item"><a href="#certificates">04. CERTIFICATES</a></li>
+      <li class="menu-item"><a href="#education">02. EDUCATION</a></li>
+      <li class="menu-item"><a href="#skills">03. MY SKILLS</a></li>
+      <li class="menu-item"><a href="#projects">04. MY PROJECTS</a></li>
+      <li class="menu-item"><a href="#certificates">05. CERTIFICATES</a></li>
     </ul>
   </div>
 
   <div class="portfolio-container">
-    
-    <h1 class="header-title">PORTFOLIO</h1>
 
+    <!-- SECTION 1: ABOUT ME -->
     <section id="about" class="section-about">
       <div class="box-left-top">
         <div class="title-box">ABOUT ME</div>
         <div class="description-box">
-          <p>Hello! I am a passionate aspiring Game Developer focused on creating engaging player experiences and mechanics.</p>
+          <p>Hello! I am <b>Aqilah Ibrahim</b>, a passionate aspiring Game Developer focused on creating engaging player experiences and mechanics.</p>
           <br>
           <p>Alongside game creation, I actively sharpen my skills in Web Programming (building responsive frontend interfaces) and Cybersecurity (understanding system security and digital defenses).</p>
           <br>
@@ -66,6 +66,17 @@
       </div>
     </section>
 
+    <!-- SECTION 2: EDUCATION -->
+    <section id="education" class="section-education">
+      <div class="title-box">EDUCATION</div>
+      <div class="education-card">
+        <h3>INFORMATICS ENGINEERING</h3>
+        <h4>Institut Teknologi Sepuluh Nopember (ITS)</h4>
+        <p>Focusing on Software Engineering, Game Development, Computer Graphics, and Cybersecurity fundamentals.</p>
+      </div>
+    </section>
+
+    <!-- SECTION 3: MY SKILLS -->
     <section id="skills" class="section-skills">
       <div class="person-image-container">
         <img src="Image/Coming Soon.png" alt="Skill Visual" class="person-img">
@@ -89,12 +100,17 @@
             <p>• C# / C / C++</p>
             <p>• GDScript</p>
             <p>• HTML5 & CSS3</p>
-            <p>• JavaScript</p>
+            <p>• JavaScript / Node.js</p>
+            <br>
+            <p><b>DATABASE:</b></p>
+            <p>• MySQL</p>
+            <p>• PostgreSQL</p>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- SECTION 4: MY PROJECTS -->
     <section id="projects" class="section-projects">
       <div class="title-box">MY PROJECTS</div>
       
@@ -148,6 +164,7 @@
       </div>
     </section>
 
+    <!-- SECTION 5: CERTIFICATES -->
     <section id="certificates" class="section-certificates">
       <div class="title-box-red" style="align-self: flex-start;">CERTIFICATES</div>
       <div class="cert-item">
@@ -157,15 +174,11 @@
         <p><b>• To Be Announced</b> - Platform / Academy Name</p>
       </div>
     </section>
-<!-- VINYL RECORD -->
-  <div class="vinyl-record" id="vinylRecord">
-    <div class="vinyl-label"></div>
+
   </div>
 
-  <script src="script.js"></script>
-</body>
-</html>
-
+  <div class="vinyl-record" id="vinylRecord">
+    <div class="vinyl-label"></div>
   </div>
 
   <script src="script.js"></script>
