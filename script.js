@@ -24,7 +24,6 @@ menuLinks.forEach(link => {
   });
 });
 
-/* VINYL RECORD ROTATION LOGIC */
 const vinyl = document.getElementById('vinylRecord');
 let currentRotation = 0;
 let lastScrollTop = window.pageYOffset || document.documentElement.scrollTop;
@@ -33,10 +32,8 @@ function animateVinyl() {
   const st = window.pageYOffset || document.documentElement.scrollTop;
   
   if (st < lastScrollTop) {
-    // Scrolling UP -> Anti-clockwise
     currentRotation -= 2.5;
   } else {
-    // Scrolling DOWN or Idle -> Clockwise
     currentRotation += 1.5;
   }
 
